@@ -5,7 +5,7 @@ class VK:
     """Класс для работы с api VK"""
     base_url = 'https://api.vk.com/method/'
 
-    def __init__(self, s_token, api_ver='5.131 '):
+    def __init__(self, s_token, api_ver='5.131'):
         """
         :param s_token: standalone token
         :param api_ver: версия api
